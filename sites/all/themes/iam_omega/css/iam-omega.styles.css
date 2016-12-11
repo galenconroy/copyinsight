@@ -1,0 +1,670 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+/* Breakpoints */
+/* x 480 - many smartphones in portrait */
+/* x 960 iphone 4, ipod touch and droids horizontal*/
+/* x 1024 - ipads and 10 inch netbooks - vertical */
+/* x 1280 - common tablet - vertical */
+/* iphone 4, ipod touch and droids horizontal */
+/* ipads and 10 inch netbooks - horizontal */
+/* common 12 inch netbook resolution */
+/*13% of screens */
+/* common in larger laptops */
+/*common for HD displays also known as 1080p */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/variables\/_typography\.scss}line{font-family:\0000340}}
+strong, b, .node__content a {
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/variables\/_typography\.scss}line{font-family:\0000343}}
+h1.site-name, h1, h2, h3, h4, h6, span.phone, p {
+  font-weight: 400; }
+
+/**
+ * $HLIST
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_hlist\.scss}line{font-family:\000034}}
+.l-navigation .menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@global\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  .l-navigation .menu:before, .l-navigation .menu:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@global\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  .l-navigation .menu:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000360}}
+  .l-navigation .menu li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_typography\.scss}line{font-family:\0000351}}
+small, .l-navigation li a {
+  font-size: 0.77778em;
+  line-height: 2.14286em;
+  line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_typography\.scss}line{font-family:\0000354}}
+h4, p {
+  font-size: 1em;
+  line-height: 1.66667em;
+  line-height: 1.66667em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_typography\.scss}line{font-family:\0000357}}
+h1.site-name, h1, h3, h6 {
+  font-size: 1.33333em;
+  line-height: 1.25em;
+  line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_typography\.scss}line{font-family:\0000360}}
+h2, span.phone {
+  font-size: 1.77778em;
+  line-height: 1.875em;
+  line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_typography\.scss}line{font-family:\0000369}}
+.t-tiny {
+  font-size: 0.66667em;
+  line-height: 2.5em;
+  line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_typography\.scss}line{font-family:\0000372}}
+.t-small {
+  font-size: 0.77778em;
+  line-height: 2.14286em;
+  line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_typography\.scss}line{font-family:\0000375}}
+.t-base {
+  font-size: 1em;
+  line-height: 1.66667em;
+  line-height: 1.66667em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_typography\.scss}line{font-family:\0000378}}
+.t-medium {
+  font-size: 1.33333em;
+  line-height: 1.25em;
+  line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_typography\.scss}line{font-family:\0000381}}
+.t-large {
+  font-size: 1.77778em;
+  line-height: 1.875em;
+  line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_typography\.scss}line{font-family:\0000384}}
+.t-xlarge {
+  font-size: 2.11111em;
+  line-height: 1.57895em;
+  line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/abstractions\/_typography\.scss}line{font-family:\0000387}}
+.t-xxlarge {
+  font-size: 2.5em;
+  line-height: 1.33333em;
+  line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_grid\.scss}line{font-family:\000031}}
+.l-branding {
+  width: 23.40426%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_grid\.scss}line{font-family:\000034}}
+.l-header-first {
+  width: 74.46809%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_grid\.scss}line{font-family:\000038}}
+.l-midsection {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding: 1.3rem 0 0 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_grid\.scss}line{font-family:\0000312}}
+  .l-midsection .l-region--midsection h2.block__title {
+    display: inline-block;
+    width: 31.91489%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_grid\.scss}line{font-family:\0000316}}
+  .l-midsection .l-region--midsection .block__content {
+    width: 65.95745%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_layout\.scss}line{font-family:\000031}}
+.l-header-first {
+  text-align: left;
+  padding-top: 1.3rem;
+  /*    padding-bottom: $vert-spacing-unit;*/ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_layout\.scss}line{font-family:\000036}}
+.l-header-wrapper {
+  padding-bottom: 19px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_lists\.scss}line{font-family:\000032}}
+ul li {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_media\.scss}line{font-family:\000031}}
+img, media {
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\000034}}
+html {
+  font-family: "Roboto", Helvetica, Arial, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000312}}
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000316}}
+h1.site-name {
+  color: #3c55d2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000321}}
+h1 {
+  color: #5fc4e1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000334}}
+h4 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  color: #25c688; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000340}}
+h6 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000345}}
+span.phone {
+  font-family: "Roboto Condensed", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000365}}
+a, .breadcrumb a, .more-link a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000369}}
+a {
+  color: #3d3d3d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
+  a:visited {
+    color: #585858; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
+  a:focus {
+    color: #585858; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+  a:hover {
+    color: #cccccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
+  a:active {
+    color: black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000381}}
+.breadcrumb a {
+  color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
+  .breadcrumb a:visited {
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
+  .breadcrumb a:focus {
+    color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+  .breadcrumb a:hover {
+    color: #585858; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
+  .breadcrumb a:active {
+    color: black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000387}}
+h2.block__title {
+  font-size: 1.33333em;
+  line-height: 1.25em;
+  line-height: 1.25em;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #5fc4e1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000394}}
+.more-link {
+  text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\0000396}}
+  .more-link a {
+    color: #eeeeee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
+    .more-link a:visited {
+      color: #eeeeee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
+    .more-link a:focus {
+      color: #585858; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+    .more-link a:hover {
+      color: #585858; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.iam_omega\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
+    .more-link a:active {
+      color: #585858; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/base\/_typography\.scss}line{font-family:\00003106}}
+.site-logo {
+  font-size: 0px;
+  padding: 0px;
+  margin-bottom: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/components\/_blocks\.scss}line{font-family:\000032}}
+h2.block__title {
+  margin-bottom: 1.3rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/components\/_blocks\.scss}line{font-family:\000035}}
+.l-header-first, .l-branding {
+  text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/components\/_blocks\.scss}line{font-family:\000038}}
+.l-midsection {
+  background-color: #e0f3f9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000312}}
+  .l-midsection .l-region--midsection h2.block__title {
+    color: #585858; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/components\/_navigation\.scss}line{font-family:\000036}}
+.l-navigation li a {
+  display: block;
+  text-transform: uppercase;
+  padding: 0.21667rem 1rem;
+  text-decoration: none;
+  color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000315}}
+  .l-navigation li a:hover, .l-navigation li a:focus {
+    color: black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000321}}
+.l-header-wrapper {
+  background-image: url(../images/smallest-curve.png);
+  background-position: bottom left;
+  background-repeat: no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000326}}
+.l-navigation {
+  position: relative;
+  top: -19px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000331}}
+.responsive-menus.responsified span.toggler {
+  padding: 0px;
+  display: block;
+  background: transparent;
+  color: white;
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/components\/_nodes\.scss}line{font-family:\000031}}
+.node__content {
+  margin-bottom: 1.3rem; }
+
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Macbook, Ipad Landscape
+
+I think this is the Macbook resolution.
+
+******************************************************************/
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_1024up\.scss}line{font-family:\0000313}}
+  .l-page-wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    /* for IE 6/7 */
+    *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+    /* non-JS fallback */
+    *zoom: 1;
+    display: block;
+    box-sizing: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@global\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+    .l-page-wrapper:before, .l-page-wrapper:after {
+      content: ".";
+      display: block;
+      height: 0;
+      overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@global\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+    .l-page-wrapper:after {
+      clear: both; } }
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Super Large Monitor Stylesheet
+
+You can add some advanced styles here if you like. This kicks in
+on larger screens.
+
+******************************************************************/
+@media (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_1280up\.scss}line{font-family:\0000313}}
+  .l-page-wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    /* for IE 6/7 */
+    *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+    /* non-JS fallback */
+    *zoom: 1;
+    display: block;
+    box-sizing: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@global\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+    .l-page-wrapper:before, .l-page-wrapper:after {
+      content: ".";
+      display: block;
+      height: 0;
+      overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/catharinetutton\/\.rvm\/gems\/ruby-1\.9\.3-p545\@global\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+    .l-page-wrapper:after {
+      clear: both; } }
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Retina Screens & Devices Stylesheet
+
+When handling retina screens you need to make adjustments, especially
+if you're not using font icons. Here you can add them in one neat
+place.
+
+******************************************************************/
+/* 
+
+EXAMPLE 
+Let's say you have an image and you need to make sure it looks ok
+on retina screens. Let's say we have an icon which dimension are
+24px x 24px. In your regular stylesheets, it would look something
+like this:
+
+.icon {
+	width: 24px;
+	height: 24px;
+	background: url(img/test.png) no-repeat;
+}
+
+For retina screens, we have to make some adjustments, so that image
+doesn't look blurry. So, taking into account the image above and the
+dimensions, this is what we would put in our retina stylesheet:
+
+.icon {
+	background: url(img/test@2x.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+So, you would create the same icon, but at double the resolution, meaning 
+it would be 48px x 48px. You'd name it the same, but with a @2x at the end
+(this is pretty standard practice). Set the background image so it matches
+the original dimensions and you are good to go. 
+
+*/
+@media (min-width: 390px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_390up\.scss}line{font-family:\000033}}
+  h1.site-name {
+    font-size: 1.77778em;
+    line-height: 1.875em;
+    line-height: 1.25em; } }
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: 481px and Up Stylesheet
+
+This stylesheet is loaded for larger devices. It's set to
+481px because at 480px it would load on a landscaped iPhone.
+This isn't ideal because then you would be loading all those
+extra styles on that same mobile connection.
+
+A word of warning. This size COULD be a larger mobile device,
+so you still want to keep it pretty light and simply expand
+upon your base.scss styles.
+
+******************************************************************/
+/*
+IMPORTANT NOTE ABOUT SASS 3.3 & UP
+You can't use @extend within media queries
+anymore, so just be aware that if you drop
+them in here, they won't work.
+*/
+@media (min-width: 481px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_481up\.scss}line{font-family:\0000328}}
+  h1.site-name {
+    font-size: 2.11111em;
+    line-height: 1.57895em;
+    line-height: 1.25em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_481up\.scss}line{font-family:\0000334}}
+.l-header-wrapper {
+  padding-bottom: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_481up\.scss}line{font-family:\0000337}}
+.l-navigation {
+  top: -20px; }
+
+@media (min-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\000033}}
+  .l-branding {
+    width: 31.91489%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\000036}}
+  .l-header-first {
+    width: 65.95745%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000310}}
+  a.site-logo {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000313}}
+  .l-header {
+    background-image: url(../images/header-background.png);
+    background-repeat: no-repeat;
+    background-position: top left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000318}}
+  .l-header-first {
+    text-align: left;
+    padding-top: 5.2rem;
+    padding-bottom: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000323}}
+  h1.site-name {
+    font-size: 2.5em;
+    line-height: 1.33333em;
+    line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000326}}
+  .l-header-second {
+    text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000328}}
+    .l-header-second ul {
+      text-align: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000332}}
+  .l-header-wrapper {
+    padding-bottom: 21px;
+    background-image: url(../images/640curve.png);
+    background-position: bottom left;
+    background-repeat: no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000338}}
+  .l-navigation {
+    top: -21px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000341}}
+  .l-region--navigation {
+    width: 65.95745%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000346}}
+  .l-preface .l-preface-first {
+    width: 31.91489%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000349}}
+  .l-preface .l-preface-second {
+    width: 31.91489%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 34.04255%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000352}}
+  .l-preface .l-preface-third {
+    width: 31.91489%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000356}}
+  .l-sidebar-first {
+    width: 31.91489%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000359}}
+  .l-content {
+    width: 48.93617%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 34.04255%;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000363}}
+  .l-sidebar-second {
+    width: 14.89362%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000369}}
+  .l-region--preface-second .block h2 {
+    font-size: 1.33333em;
+    line-height: 1.25em;
+    line-height: 1.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000372}}
+  .l-region--preface-second .block p {
+    font-size: 0.77778em;
+    line-height: 2.14286em;
+    line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000378}}
+  .l-postscript .l-postscript-first {
+    width: 65.95745%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000381}}
+  .l-postscript .l-postscript-second {
+    width: 14.89362%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 68.08511%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_640up\.scss}line{font-family:\0000384}}
+  .l-postscript .l-postscript-third {
+    width: 14.89362%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+Here's where you can start getting into the good stuff.
+This size will work on iPads, other tablets, and desktops.
+So you can start working with more styles, background images,
+and other resources. You'll also notice the grid starts to
+come into play. Have fun!
+
+******************************************************************/
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_768up\.scss}line{font-family:\0000316}}
+  .l-header-first {
+    padding-top: 4.42rem;
+    padding-bottom: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_768up\.scss}line{font-family:\0000321}}
+  h1.site-name {
+    font-size: 3.16667em;
+    line-height: 1.57895em;
+    line-height: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_768up\.scss}line{font-family:\0000327}}
+  .l-region--preface-second .block h2 {
+    font-size: 1.77778em;
+    line-height: 1.875em;
+    line-height: 1.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/breakpoints\/_768up\.scss}line{font-family:\0000330}}
+  .l-region--preface-second .block p {
+    font-size: 1em;
+    line-height: 1.66667em;
+    line-height: 1.66667em; } }
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the Samsung Galaxy size. It is between Ipad portrait and landscape so try not to use it
+
+******************************************************************/
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the Droids size. It is between Ipad portrait and landscape so try not to use it
+
+******************************************************************/

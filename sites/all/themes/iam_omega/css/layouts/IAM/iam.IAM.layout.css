@@ -1,0 +1,35 @@
+/*******************************************************************************
+ * iam.IAM.layout.scss
+ *
+ * Additional, theme specific styles for the Insight Audio Mastering.
+ ******************************************************************************/
+/* Breakpoints */
+/* x 480 - many smartphones in portrait */
+/* x 960 iphone 4, ipod touch and droids horizontal*/
+/* x 1024 - ipads and 10 inch netbooks - vertical */
+/* x 1280 - common tablet - vertical */
+/* iphone 4, ipod touch and droids horizontal */
+/* ipads and 10 inch netbooks - horizontal */
+/* common 12 inch netbook resolution */
+/*13% of screens */
+/* common in larger laptops */
+/*common for HD displays also known as 1080p */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/layouts\/IAM\/iam\.IAM\.layout\.scss}line{font-family:\0000310}}
+body {
+  background-color: #2296b8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/layouts\/IAM\/iam\.IAM\.layout\.scss}line{font-family:\0000313}}
+.l-header {
+  background-color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/layouts\/IAM\/iam\.IAM\.layout\.scss}line{font-family:\0000316}}
+.l-page-wrapper {
+  background-color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/layouts\/IAM\/iam\.IAM\.layout\.scss}line{font-family:\0000320}}
+.l-region--header-first {
+  border-top: white solid 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/InsightAudioMastering\.ca\/sites\/all\/themes\/iam_omega\/sass\/layouts\/IAM\/iam\.IAM\.layout\.scss}line{font-family:\0000326}}
+.l-main {
+  background-color: white; }
